@@ -1,0 +1,21 @@
+{
+  "name" : null,
+  "isEnabled" : false,
+  "isSCDEnabled" : false,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : null,
+  "dataSetQn" : null,
+  "queryTablePartitionColumn" : null,
+  "sparkConnId" : null,
+  "totalExecutorCores" : null,
+  "executorCores" : null,
+  "executorMemory" : null,
+  "serverHostName" : "nfsHost1",
+  "sourcePath" : "/dir1/dir2",
+  "fileNamePattern" : "Room",
+  "fileFormat" : "csv",
+  "delimiter" : ",",
+  "compressed" : true
+}

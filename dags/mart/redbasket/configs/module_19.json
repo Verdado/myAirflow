@@ -1,0 +1,14 @@
+{
+  "name": "module_19",
+  "upStream": ["module_16","module_17","module_18_c"],
+  "driverMemory": "8g",
+  "executorMemory": "6g",
+  "executorCores": 2,
+  "totalExecutorCores": 10,
+  "configName": "module_19_RedBasketUpdate.yaml",
+  "sparkConnId": "spark_cluster2",
+  "jobArgs": {
+    "pointDB": "spdb__point__oracle__ptadmin_at_sv_epnt001_jpe1",
+    "workTableDB": "spdb__redbasket_wk"
+  }
+}

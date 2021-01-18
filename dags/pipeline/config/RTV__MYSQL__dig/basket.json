@@ -1,0 +1,18 @@
+{
+  "name" : "basket",
+  "isEnabled" : true,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "2dee2a52-bb04-4885-9278-1b794e2b6208",
+  "dataSetQn" : "RTV__MYSQL__dig__basket",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "incrTable" : "_incr_files",
+  "kafkaTopic" : "RTV__MYSQL__dig.dig.basket",
+  "primaryKeys" : "id,created_at",
+  "updateOrderColumns" : "spdb_landing_timestamp,spdb_topic_offset"
+}

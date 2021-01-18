@@ -1,0 +1,18 @@
+{
+  "name": "module_12_e",
+  "upStream": ["module_12_a","module_12_b","module_12_c","module_12_d"],
+  "driverMemory": "4g",
+  "executorMemory": "8g",
+  "executorCores": 4,
+  "totalExecutorCores": 12,
+  "configName": "module_12_red_member_details.yaml",
+  "sparkConnId": "spark_cluster2",
+  "needDailyData": true,
+  "jobArgs": {
+    "workTableDB": "spdb__redbasket_wk",
+    "redBasketDB": "spdb__redbasket"
+  },
+  "extraConf": {
+    "spark.sql.shuffle.partitions": 64
+  }
+}

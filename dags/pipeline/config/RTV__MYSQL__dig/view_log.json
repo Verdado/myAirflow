@@ -1,0 +1,18 @@
+{
+  "name" : "view_log",
+  "isEnabled" : true,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "d436f032-9470-486b-a5b2-ae49ed0a9f6b",
+  "dataSetQn" : "RTV__MYSQL__dig__view_log",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "incrTable" : "_incr_files",
+  "kafkaTopic" : "RTV__MYSQL__dig.dig.view_log",
+  "primaryKeys" : "id,created_at",
+  "updateOrderColumns" : "spdb_landing_timestamp,spdb_topic_offset"
+}

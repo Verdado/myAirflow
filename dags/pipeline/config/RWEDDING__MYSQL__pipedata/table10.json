@@ -1,0 +1,20 @@
+{
+  "name" : "table10",
+  "isEnabled" : true,
+  "isBulk" : true,
+  "isSCDEnabled" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "acf5f474-7c44-49ac-924e-8a04b6295853",
+  "dataSetQn" : "RWEDDING__MYSQL__pipedata__table3",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 6,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "serverTimezone" : "JST",
+  "jdbcUrl" : "jdbc:mysql://ds-redsiva101z.prod.jp.local:3301/TMA_AMATERASU?useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&zeroDateTimeBehavior=convertToNull",
+  "jdbcDriver" : "com.mysql.cj.jdbc.Driver",
+  "dbUserId" : "thor_pointg",
+  "dbEncryptedPassword" : "NHpeyCzeZ+/DixDexEStxQ==:kjnhXYnuQn2VaWPPcyz2zw=="
+}

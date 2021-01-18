@@ -1,0 +1,19 @@
+{
+  "name" : "point_exchange",
+  "isEnabled" : true,
+  "isSCDEnabled" : false,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "f99c79c9-8cc5-4a35-9139-9792c86b5793",
+  "dataSetQn" : "POINT__SUPERDB__POINT__point_exchange",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "incrTable" : "_incr_files",
+  "kafkaTopic" : "POINT__SUPERDB__POINT.POINT.point_exchange",
+  "primaryKeys" : "group_id,reason_id",
+  "updateOrderColumns" : "spdb_landing_timestamp,spdb_topic_offset"
+}

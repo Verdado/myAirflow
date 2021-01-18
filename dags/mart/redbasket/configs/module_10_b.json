@@ -1,0 +1,14 @@
+{
+  "name": "module_10_b",
+  "upStream": ["module_10_a"],
+  "driverMemory": "4g",
+  "executorMemory": "6g",
+  "executorCores": 6,
+  "totalExecutorCores": 30,
+  "configName": "module_10b.yaml",
+  "sparkConnId": "spark_cluster2",
+  "jobArgs": {
+    "workTableDB": "spdb__redbasket_wk",
+    "ichibaTableDB": "spdb_ichiba_oracle_spdb_user_at_sv_spdb_dot_rise"
+  }
+}

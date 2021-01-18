@@ -1,0 +1,11 @@
+{
+  "name": "POINT__MergeUserRank",
+  "driverMemory": "8g",
+  "executorMemory": "4g",
+  "executorCores": 2,
+  "totalExecutorCores": 10,
+  "configName": "POINT__MergeUserRank.yaml",
+  "jobArgs": {
+    "pointDB": "spdb__point__oracle__ptadmin_at_sv_epnt001_jpe1"
+  }
+}

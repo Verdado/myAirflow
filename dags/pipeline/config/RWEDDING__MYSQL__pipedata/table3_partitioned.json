@@ -1,0 +1,17 @@
+{
+  "name" : "table3_partitioned",
+  "isEnabled" : false,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "acf5f474-7c44-49ac-924e-8a04b6295853",
+  "dataSetQn" : "RWEDDING__MYSQL__pipedata__table3",
+  "queryTablePartitionColumn" : "shop_id",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 6,
+  "executorCores" : 2,
+  "executorMemory" : "5g",
+  "kafkaTopic" : "dev-spdb-mysql.pipedata.table3",
+  "primaryKeys" : "id",
+  "updateOrderColumns" : "spdb_landing_timestamp,spdb_topic_offset"
+}

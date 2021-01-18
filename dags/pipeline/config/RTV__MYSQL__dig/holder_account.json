@@ -1,0 +1,20 @@
+{
+  "name" : "holder_account",
+  "isEnabled" : true,
+  "isBulk" : true,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "a2900401-24f7-4b10-869d-8c0ac45165ca",
+  "dataSetQn" : "RTV__MYSQL__dig__holder_account",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "datetimeColumns" : "",
+  "serverTimezone" : "UTC",
+  "jdbcUrl" : "jdbc :mysql ://jp-bgr-digrds-cluster.cluster-cp2pinphjk8v.ap-northeast-1.rds.amazonaws.com :3306/dig?useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&zeroDateTimeBehavior=convertToNull",
+  "jdbcDriver" : "com.mysql.cj.jdbc.Driver",
+  "dbUserId" : "thor_tv",
+  "dbEncryptedPassword" : "MbNskcx+EFnyqbN0GZJUgw== :uZk7DrbRfhu91Rxx7c6ycw=="
+}

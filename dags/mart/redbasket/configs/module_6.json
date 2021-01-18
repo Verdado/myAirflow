@@ -1,0 +1,14 @@
+{
+  "name": "module_6",
+  "driverMemory": "4g",
+  "executorMemory": "6g",
+  "executorCores": 6,
+  "totalExecutorCores": 12,
+  "configName": "module_6_OrderNumber.yaml",
+  "sparkConnId": "spark_cluster2",
+  "needDailyData": true,
+  "jobArgs": {
+    "workTableDB": "spdb__redbasket_wk",
+    "ichibaTableDB": "spdb_ichiba_oracle_spdb_user_at_sv_spdb_dot_rise"
+  }
+}

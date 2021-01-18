@@ -1,0 +1,18 @@
+{
+  "name" : "purchase_log_vod",
+  "isEnabled" : true,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "b695a441-9394-493c-aa05-bbc1a8b11335",
+  "dataSetQn" : "RTV__MYSQL__dig__purchase_log_vod",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "incrTable" : "_incr_files",
+  "kafkaTopic" : "RTV__MYSQL__dig.dig.purchase_log_vod",
+  "primaryKeys" : "id,purchased_at",
+  "updateOrderColumns" : "spdb_landing_timestamp,spdb_topic_offset"
+}

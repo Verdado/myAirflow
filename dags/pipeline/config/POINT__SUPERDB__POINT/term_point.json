@@ -1,0 +1,19 @@
+{
+  "name" : "term_point",
+  "isEnabled" : true,
+  "isSCDEnabled" : false,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "88ebb155-6b46-40c0-b990-3c0814257d5b",
+  "dataSetQn" : "POINT__SUPERDB__POINT__term_point",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "incrTable" : "_incr_files",
+  "kafkaTopic" : "POINT__SUPERDB__POINT.POINT.term_point",
+  "primaryKeys" : "partition_key,term_point_id",
+  "updateOrderColumns" : "spdb_landing_timestamp,spdb_topic_offset"
+}

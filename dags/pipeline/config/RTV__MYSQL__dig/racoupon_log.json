@@ -1,0 +1,18 @@
+{
+  "name" : "racoupon_log",
+  "isEnabled" : true,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "b11a4008-bbd8-4f8f-bdc0-2e60b2553dab",
+  "dataSetQn" : "RTV__MYSQL__dig__racoupon_log",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "incrTable" : "_incr_files",
+  "kafkaTopic" : "RTV__MYSQL__dig.dig.racoupon_log",
+  "primaryKeys" : "id",
+  "updateOrderColumns" : "spdb_landing_timestamp,spdb_topic_offset"
+}

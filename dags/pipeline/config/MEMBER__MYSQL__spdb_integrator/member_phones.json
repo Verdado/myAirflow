@@ -1,0 +1,22 @@
+{
+  "name" : "member_phones",
+  "isEnabled" : true,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "3f8ab9ff-1185-4b44-b28b-a24122e8c93a",
+  "dataSetQn" : "MEMBER__MYSQL__spdb_integrator__member_phones",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "incrTable" : "_incr_files",
+  "kafkaTopic" : "MEMBER__MYSQL__spdb_integrator.spdb_integrator.member_phones",
+  "primaryKeys" : "member_uuid,region,phone_number",
+  "updateOrderColumns" : "spdb_landing_timestamp,spdb_topic_offset",
+  "preprocessings": [
+    ["splitPhoneFaxNum","phone_number","tel1","tel2","tel3"],
+    ["addColTS", "spdb_etl_timestamp", "time_stamp"]
+  ]
+}

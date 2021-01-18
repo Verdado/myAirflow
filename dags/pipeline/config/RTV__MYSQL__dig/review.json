@@ -1,0 +1,18 @@
+{
+  "name" : "review",
+  "isEnabled" : true,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "2394c968-ee41-461e-8282-e4a938705191",
+  "dataSetQn" : "RTV__MYSQL__dig__review",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "incrTable" : "_incr_files",
+  "kafkaTopic" : "RTV__MYSQL__dig.dig.review",
+  "primaryKeys" : "id",
+  "updateOrderColumns" : "spdb_landing_timestamp,spdb_topic_offset"
+}

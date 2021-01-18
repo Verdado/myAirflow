@@ -1,0 +1,18 @@
+{
+  "name" : "member_profiles",
+  "isEnabled" : true,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "f2a42cc8-e218-4f2c-876c-13b6c356c519",
+  "dataSetQn" : "MEMBER__MYSQL__spdb_integrator__member_profiles",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "incrTable" : "_incr_files",
+  "kafkaTopic" : "MEMBER__MYSQL__spdb_integrator.spdb_integrator.member_profiles",
+  "primaryKeys" : "member_uuid,region",
+  "updateOrderColumns" : "spdb_landing_timestamp,spdb_topic_offset"
+}

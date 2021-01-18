@@ -1,0 +1,3 @@
+{
+  "sparkAppJar": "https://artifactory.rakuten-it.com/spdb-mvn-release/com/rakuten/dps/dataplatform/pipeline-spark-jobs_2.11/2.3_SPU-19/pipeline-spark-jobs_2.11-2.3_SPU-19-assembly.jar"
+}

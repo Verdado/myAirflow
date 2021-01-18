@@ -1,0 +1,13 @@
+{
+  "name": "module_4",
+  "upStream": ["module_1", "module_2", "module_3"],
+  "driverMemory": "12g",
+  "executorMemory": "7g",
+  "executorCores": 3,
+  "totalExecutorCores": 9,
+  "configName": "module_4_GetShopDetails.yaml",
+  "sparkConnId": "spark_cluster2",
+  "jobArgs": {
+    "workTableDB": "spdb__redbasket_wk"
+  }
+}

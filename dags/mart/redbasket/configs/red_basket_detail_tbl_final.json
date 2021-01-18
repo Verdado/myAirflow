@@ -1,0 +1,19 @@
+{
+  "name": "red_basket_detail_tbl_final",
+  "upStream": ["module_20"],
+  "driverMemory": "8g",
+  "executorMemory": "6g",
+  "executorCores": 2,
+  "totalExecutorCores": 30,
+  "configName": "red_basket_detail_tbl_final.yaml",
+  "sparkConnId": "spark_cluster2",
+  "jobArgs": {
+    "redBasketDB": "spdb__redbasket",
+    "incrTable": "red_basket_detail_tbl_newRecords",
+    "finalTable": "red_basket_detail_tbl",
+    "hdfsBasePath": "/user/datalake"
+  },
+  "extraConf": {
+    "spark.sql.sources.partitionOverwriteMode": "dynamic"
+  }
+}

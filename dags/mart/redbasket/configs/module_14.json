@@ -1,0 +1,16 @@
+{
+  "name": "module_14",
+  "upStream": ["module_5","module_8_a","module_8_b","module_8_c","module_9_a","module_9_b","module_9_c","module_10_b","module_13"],
+  "driverMemory": "12g",
+  "executorMemory": "7g",
+  "executorCores": 3,
+  "totalExecutorCores": 9,
+  "configName": "module_14_GetWK1BasketDetail.yaml",
+  "sparkConnId": "spark_cluster2",
+  "needDailyData": true,
+  "jobArgs": {
+    "workTableDB": "spdb__redbasket_wk",
+    "ichibaTableDB": "spdb_ichiba_oracle_spdb_user_at_sv_spdb_dot_rise",
+    "masterDB": "spdb__redbasket"
+  }
+}

@@ -1,0 +1,12 @@
+{
+"name" : "day_report_advanced",
+"isEnabled" : true,
+"nfs_host_name": "ndt401-v.prod.jp.local",
+"file_pattern": "day_report_advanced_%(today)s_[0-9]{6}.unl.gz$",
+"source_dir": "/super_db/data/affiliate/in",
+"endpoint_url" : "https://jpe2b-1000-staas.r-local.net",
+"target_bucket" :  "spdb-filebased-ingestions/affiliate/day_report_advanced/%(today)s",
+"poke_interval" : 10,
+"no_of_retries" : 2,
+"file_count" : ""
+}

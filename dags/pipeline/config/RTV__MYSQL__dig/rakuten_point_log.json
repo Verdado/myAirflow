@@ -1,0 +1,18 @@
+{
+  "name" : "rakuten_point_log",
+  "isEnabled" : true,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "27aadef8-c614-4930-a4fc-d306b734360d",
+  "dataSetQn" : "RTV__MYSQL__dig__rakuten_point_log",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "incrTable" : "_incr_files",
+  "kafkaTopic" : "RTV__MYSQL__dig.dig.rakuten_point_log",
+  "primaryKeys" : "id",
+  "updateOrderColumns" : "spdb_landing_timestamp,spdb_topic_offset"
+}

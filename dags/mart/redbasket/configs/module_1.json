@@ -1,0 +1,15 @@
+{
+  "name": "module_1",
+  "driverMemory": "12g",
+  "executorMemory": "7g",
+  "executorCores": 3,
+  "totalExecutorCores": 9,
+  "configName": "module_1_shops_items_cnt.yaml",
+  "sparkConnId": "spark_cluster2",
+  "needDailyData": true,
+  "jobArgs": {
+    "workTableDB": "spdb__redbasket_wk",
+    "ichibaTableDB": "spdb_ichiba_oracle_spdb_user_at_sv_spdb_dot_rise",
+    "redBasketDB": "spdb__redbasket"
+  }
+}

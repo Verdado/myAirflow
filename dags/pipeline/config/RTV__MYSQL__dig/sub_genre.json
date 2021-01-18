@@ -1,0 +1,20 @@
+{
+  "name" : "sub_genre",
+  "isEnabled" : true,
+  "isBulk" : true,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "27682b42-0c64-4060-af8f-4edaca17d07b",
+  "dataSetQn" : "RTV__MYSQL__dig__sub_genre",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "datetimeColumns" : "",
+  "serverTimezone" : "UTC",
+  "jdbcUrl" : "jdbc :mysql ://jp-bgr-digrds-cluster.cluster-cp2pinphjk8v.ap-northeast-1.rds.amazonaws.com :3306/dig?useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&zeroDateTimeBehavior=convertToNull",
+  "jdbcDriver" : "com.mysql.cj.jdbc.Driver",
+  "dbUserId" : "thor_tv",
+  "dbEncryptedPassword" : "MbNskcx+EFnyqbN0GZJUgw== :uZk7DrbRfhu91Rxx7c6ycw=="
+}

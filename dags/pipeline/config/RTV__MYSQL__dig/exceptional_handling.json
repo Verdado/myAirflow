@@ -1,0 +1,18 @@
+{
+  "name" : "exceptional_handling",
+  "isEnabled" : true,
+  "isBulk" : false,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "eacd5d6f-cfea-43b7-9ac3-c603a156e63f",
+  "dataSetQn" : "RTV__MYSQL__dig__exceptional_handling",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "incrTable" : "_incr_files",
+  "kafkaTopic" : "RTV__MYSQL__dig.dig.exceptional_handling",
+  "primaryKeys" : "id",
+  "updateOrderColumns" : "spdb_landing_timestamp,spdb_topic_offset"
+}

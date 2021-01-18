@@ -1,0 +1,19 @@
+{
+  "name" : "table1",
+  "isEnabled" : true,
+  "isSCDEnabled" : false,
+  "isBulk" : true,
+  "isOracleHist" : false,
+  "doCountCheck" : true,
+  "dataSetId" : "8906f84f-bd52-40f2-b568-1f1c55b4d818",
+  "dataSetQn" : "RWEDDING__MYSQL__pipedata__table1",
+  "queryTablePartitionColumn" : "",
+  "sparkConnId" : "spark_default",
+  "totalExecutorCores" : 4,
+  "executorCores" : 2,
+  "executorMemory" : "12g",
+  "jdbcUrl" : "jdbc:mysql://stg-dm-spdb101z.stg.jp.local:3301/pipedata?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull",
+  "jdbcDriver" : "com.mysql.cj.jdbc.Driver",
+  "dbUserId" : "newspdb",
+  "dbEncryptedPassword" : "f7d93ZIzczB5tCMCFU+Qwg==:JMHfGvIu7Php7mkf1CCFOmNBYxAGk1T+pWxCl0F8QAI="
+}

@@ -1,0 +1,14 @@
+{
+  "name": "module_9_b",
+  "upStream": ["module_7_b","module_7_c","module_7_d","module_7_e","module_7_f"],
+  "driverMemory": "4g",
+  "executorMemory": "6g",
+  "executorCores": 6,
+  "totalExecutorCores": 30,
+  "configName": "module_9b.yaml",
+  "sparkConnId": "spark_cluster2",
+  "jobArgs": {
+    "workTableDB": "spdb__redbasket_wk",
+    "ichibaTableDB": "spdb_ichiba_oracle_spdb_user_at_sv_spdb_dot_rise"
+  }
+}

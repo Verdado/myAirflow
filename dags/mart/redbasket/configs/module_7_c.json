@@ -1,0 +1,16 @@
+{
+  "name": "module_7_c",
+  "upStream": ["module_7_a"],
+  "driverMemory": "12g",
+  "executorMemory": "7g",
+  "executorCores": 3,
+  "totalExecutorCores": 9,
+  "configName": "module_7_Wk1_basket_orderer2_hist.yaml",
+  "sparkConnId": "spark_cluster2",
+  "needDailyData": true,
+  "workTableDB": "spdb__redbasket_wk",
+  "jobArgs": {
+    "ichibaTableDB": "spdb_ichiba_oracle_spdb_user_at_sv_spdb_dot_rise",
+    "redBasketDB": "spdb__redbasket"
+  }
+}
